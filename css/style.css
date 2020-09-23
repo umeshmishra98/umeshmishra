@@ -754,7 +754,7 @@ ul#nav li a:hover {
 }
 .Swift {
   background: #e74c3c;
-  	width: 40%;
+  	width: 80%;
   	-moz-animation: Swift 2s ease;
   	-webkit-animation: Swift 2s ease;
 }
@@ -788,6 +788,12 @@ ul#nav li a:hover {
     -moz-animation: XCODE 2s ease;
     -webkit-animation: XCODE 2s ease;
 }
+.react_native {
+  background: #78a577;
+    width: 40%;
+    -moz-animation: react_native 2s ease;
+    -webkit-animation: react_native 2s ease;
+}
 
 @-moz-keyframes ObjectiveC {
   0%   { width: 0px;  }
@@ -795,7 +801,7 @@ ul#nav li a:hover {
 }
 @-moz-keyframes Swift {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes CoreData {
   0%   { width: 0px;  }
@@ -817,6 +823,10 @@ ul#nav li a:hover {
   0%   { width: 0px }
   100% { width: 75% }
 }
+@-moz-keyframes react_native {
+  0%   { width: 0px }
+  100% { width: 40% }
+}
 
 @-webkit-keyframes ObjectiveC {
   0%   { width: 0px;  }
@@ -824,7 +834,7 @@ ul#nav li a:hover {
 }
 @-webkit-keyframes Swift {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 48%;  }
 }
 @-webkit-keyframes CoreData {
   0%   { width: 0px;  }
@@ -845,6 +855,10 @@ ul#nav li a:hover {
 @-webkit-keyframes XCODE {
   0%   { width: 0px }
   100% { width: 75% }
+}
+@-webkit-keyframes react_native {
+  0%   { width: 0px }
+  100% { width: 45% }
 }
 
 /* ------------------------------------------------------------------ */
